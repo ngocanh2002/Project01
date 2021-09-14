@@ -1,10 +1,10 @@
- {
+{
   "name": "work",
   "version": "1.0.0",
   "description": "Sample app for using mysql with node",
   "main": "app.js",
   "dependencies": {
-    "sql": "^0.78.0"
+    "mysql": "^2.18.1"
   },
   "devDependencies": {},
   "scripts": {
