@@ -22,18 +22,21 @@ con.connect(function (err){
     // 3/ Search products which has 'No'
     const task_3 = "SELECT * FROM Product where Name like 'No%'";
 
-    console.log('Task 1');
+    //console.log('Task 1');
     con.query(task_1, function (err,results) {
+      console.log('Task 1');
         if (err) throw err;
         console.log(results);
     });
-    console.log('Task 2');
+    //console.log('Task 2');
     con.query(task_2, function (err,results) {
+      console.log('Task 2');
       if (err) throw err;
       console.log(results);
     });
-    console.log('Task 3');
+    //console.log('Task 3');
     con.query(task_3, function (err,results) {
+      console.log('Task 3');
       if (err) throw err;
       console.log(results);
     });
